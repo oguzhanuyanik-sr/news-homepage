@@ -1,5 +1,13 @@
-import data from './api/response.json';
+import Featured from '@/components/featured';
+import News from '@/components/news';
+import Popular from '@/components/popular';
 
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <Featured />
+      <News />
+      <Popular />
+    </>
+  );
 }
