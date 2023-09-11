@@ -13,7 +13,7 @@ const Featured = () => {
         <Image
           className='lg:hidden w-full'
           src={img.mobile}
-          alt='test'
+          alt='Featured'
           height={768}
           width={768}
           sizes='100%'
@@ -21,8 +21,8 @@ const Featured = () => {
         <Image
           className='hidden lg:block w-full'
           src={img.desktop}
-          alt='test'
-          height={768}
+          alt='Featured'
+          height={324}
           width={768}
           sizes='100%'
         />
