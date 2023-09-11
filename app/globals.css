@@ -4,6 +4,6 @@
 
 @layer base {
   body {
-    @apply container bg-white overflow-x-hidden;
+    @apply container bg-white overflow-x-hidden w-full pt-20 pb-6;
   }
 }

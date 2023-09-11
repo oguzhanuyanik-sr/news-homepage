@@ -5,8 +5,10 @@ import Popular from '@/components/popular';
 export default function Home() {
   return (
     <>
-      <Featured />
-      <News />
+      <section className='w-full h-full flex flex-wrap justify-between'>
+        <Featured />
+        <News />
+      </section>
       <Popular />
     </>
   );

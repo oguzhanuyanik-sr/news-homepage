@@ -6,8 +6,8 @@ type Props = {};
 
 const News = (props: Props) => {
   return (
-    <section className='bg-darkBlue mt-16 p-5'>
-      <h2 className='text-yellow font-bold text-[32px] leading-[32px] md:text-[40px] md:leading-[40px] mb-[35px]'>
+    <section className='bg-darkBlue mt-16 lg:mt-8 p-5 lg:w-[30%]'>
+      <h2 className='text-yellow font-bold text-[32px] leading-[32px] lg:text-[40px] lg:leading-[40px] mb-[35px]'>
         New
       </h2>
       {newPosts.map(({ title, desc, url }, index) => (

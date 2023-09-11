@@ -6,7 +6,7 @@ type Props = {};
 
 const Popular = (props: Props) => {
   return (
-    <section className='my-16'>
+    <section className='mt-16 md:flex md:gap-8'>
       {topPosts.map((post, index) => (
         <PopularPost key={index} post={post} />
       ))}
