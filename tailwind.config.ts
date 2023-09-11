@@ -22,15 +22,9 @@ const config: Config = {
       grey: '#5E607A',
       lightGrey: '#C5C6CE',
     },
-    fontFamily: {
-      jakarta: ['Plus Jakarta Sans', 'sans-serif'],
-    },
-    boxShadow: {
-      '': '',
-    },
-    backgroundImage: {
-      '': '',
-    },
+    fontFamily: {},
+    boxShadow: {},
+    backgroundImage: {},
     container: {
       center: true,
       padding: '2rem',

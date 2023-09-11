@@ -1,9 +1,14 @@
 import Link from 'next/link';
 import React from 'react';
 
-type Props = {};
+interface NewPostProps {
+  isLast: boolean;
+  title: string;
+  desc: string;
+  url: string;
+}
 
-const NewPost = ({ isLast, title, desc, url }: Props) => {
+const NewPost = ({ isLast, title, desc, url }: NewPostProps) => {
   return (
     <div
       className={`${isLast ? '' : 'border-b border-grey pb-[30px] mb-[30px]'}`}

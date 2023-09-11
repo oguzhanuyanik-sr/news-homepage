@@ -1,10 +1,8 @@
 import React from 'react';
-import { newPosts } from '@/app/api/response.json';
 import NewPost from '../common/new-post';
+import { newPosts } from '@/app/api/response.json';
 
-type Props = {};
-
-const News = (props: Props) => {
+const News = () => {
   return (
     <section className='bg-darkBlue mt-16 lg:mt-8 p-5 lg:w-[30%]'>
       <h2 className='text-yellow font-bold text-[32px] leading-[32px] lg:text-[40px] lg:leading-[40px] mb-[35px]'>

@@ -1,14 +1,12 @@
-import Image from 'next/image';
 import React from 'react';
-import { featured } from '@/app/api/response.json';
+import Image from 'next/image';
 import Link from 'next/link';
 import Button from '../common/button';
+import { featured } from '@/app/api/response.json';
 
 const { title, desc, img, url } = featured;
 
-type Props = {};
-
-const Featured = (props: Props) => {
+const Featured = () => {
   return (
     <section className='mt-8 lg:w-[65%] lg:mr-[5%] md:flex md:flex-col md:justify-evenly'>
       <Link href={url} className='w-full'>

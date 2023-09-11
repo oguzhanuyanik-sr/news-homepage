@@ -1,14 +1,18 @@
 import Link from 'next/link';
 import React from 'react';
 
-type Props = {};
+interface ButtonProps {
+  title: string;
+  styles: 'blue' | 'orange';
+  url: string;
+}
 
 const buttonStyles = {
   blue: 'bg-darkBlue hover:bg-orange',
   orange: 'bg-orange hover:bg-darkBlue',
 };
 
-const Button = ({ title, styles, url }: Props) => {
+const Button = ({ title, styles, url }: ButtonProps) => {
   return (
     <Link
       href={url}

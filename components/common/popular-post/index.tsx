@@ -2,9 +2,17 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-type Props = {};
+interface PopularPostProps {
+  post: {
+    id: string | number;
+    title: string;
+    desc: string;
+    url: string;
+    img: string;
+  };
+}
 
-const PopularPost = ({ post }: Props) => {
+const PopularPost = ({ post }: PopularPostProps) => {
   const { id, title, desc, url, img } = post;
 
   return (

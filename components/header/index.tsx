@@ -1,15 +1,13 @@
 'use client';
-import Image from 'next/image';
 import React, { useState } from 'react';
-import LogoImage from '@/public/images/logo.svg';
+import Image from 'next/image';
 import Link from 'next/link';
+import LogoImage from '@/public/images/logo.svg';
 import { navData } from '@/utils/constants';
 import { LiaTimesSolid } from 'react-icons/lia';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   const [mobileNavState, setMobileNavState] = useState(false);
 
   return (
