@@ -1,1 +1,2 @@
-# Work in progress...
+<h1 align="center"><a href="https://new-ou.vercel.app/">News Home - Live Demo</a></h1>
+<img alt="Meet Landing Page" src="https://raw.githubusercontent.com/oguzhanuyanik-sr/news-homepage/master/screenshot-desktop.png" />
