@@ -16,6 +16,7 @@ const config: Config = {
     colors: {
       white: '#FFFDFA',
       darkBlue: '#00001A',
+      transparentBlue: 'rgba(0, 0, 26, 0.5)',
       orange: '#F15D51',
       yellow: '#E9AA52',
       grey: '#5E607A',
